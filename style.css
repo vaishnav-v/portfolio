@@ -154,9 +154,9 @@ article.project h3.project-title {
 }
 
 .project-content img {
-    width: 100%;
+    width: 81%;
     height: auto;
-    margin: 12px 0;
+    margin: 4px 0 24px 0;
     border-radius: 5px;
 }
 
@@ -165,12 +165,50 @@ article.project h3.project-title {
 }
 
 
+.experience ul {
+    margin-left: 1em;
+}
+
+.experience-item h3 {
+    padding: 21px 0;
+    font-size: 24px;
+    display: flex;
+}
+
+.experience-item .position-title {
+    flex: 1;
+    font-size: 24px;
+}
+
+.experience-item .job-duration {
+    font-size: 21px;
+}
+
+.experience-item span {
+    font-size: 21px;
+}
+.experience-content li{
+    margin: 12px 0;
+}
+ul.experience-content span{
+    font-size: 19px;
+    line-height: 29px;
+}
+
 @media only screen and (min-width: 600px) {
 
     nav,
     .scroll {
         padding: 0 15vw;
     }
+}
+
+@media only screen and (max-width: 1200px) {
+    #projects main {
+        height: auto;
+        flex-direction: column;
+    }
+
 }
 
 
