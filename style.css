@@ -18,6 +18,11 @@
     color: #fefefe
 }
 
+nav,
+.scroll {
+    padding: 0 4vw;
+}
+
 
 
 @font-face {
