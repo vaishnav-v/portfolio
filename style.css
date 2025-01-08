@@ -219,6 +219,11 @@ ul.experience-content span{
     text-decoration: underline;
 }
 
+nav,
+.scroll {
+    padding: 0 2vw;
+}
+
 @media only screen and (min-width: 600px) {
 
     nav,
