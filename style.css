@@ -43,6 +43,7 @@ main .scroll {
     border: 1px solid transparent;
     flex: 1;
     overflow: auto;
+    max-width: 100vw;
 }
 
 body {
@@ -70,6 +71,8 @@ nav {
 
 nav ul {
     display: flex;
+    overflow: hidden;
+    max-width: 100vw;
 }
 
 nav ul li {
@@ -80,7 +83,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 18px;
+    font-size: min(4vw,16px);
     transition: all 300ms ease-in-out;
 }
 
