@@ -33,7 +33,10 @@ nav,
 main {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    
+}
+main.top{
+    height: 100vh; 
 }
 
 main .scroll {
