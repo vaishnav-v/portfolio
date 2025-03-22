@@ -130,6 +130,8 @@ section#skills article h4 {
 section#skills article ul {
     display: flex;
     flex-wrap: wrap;
+    max-width: 95vh;
+    overflow: hidden;
     margin-left: 0;
     margin: 20px -1em;
     font-family: "Epilogue", sans-serif;
