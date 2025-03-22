@@ -268,3 +268,12 @@ nav,
     }
 
 }
+
+@media screen and (max-width: 400px)   {
+    .project-content {
+        flex-wrap: wrap;
+    }
+    .project-content .project-details {
+        padding: 4px 0px;
+    }
+}
