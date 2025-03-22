@@ -33,10 +33,11 @@ nav,
 main {
     display: flex;
     flex-direction: column;
-    
+
 }
-main.top{
-    height: 100vh; 
+
+main.top {
+    height: 100vh;
 }
 
 main .scroll {
@@ -48,7 +49,8 @@ main .scroll {
 
 body {
     font-family: 'wotfard', sans-serif;
-    background-color: #121212;
+    background: rgb(11, 7, 55);
+    background: radial-gradient(circle, rgb(9 7 37) 0%, rgb(4 4 39) 36%, rgb(5 6 26) 100%);
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -83,7 +85,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: min(4vw,16px);
+    font-size: min(4vw, 16px);
     transition: all 300ms ease-in-out;
 }
 
@@ -130,6 +132,7 @@ section#skills article ul {
     flex-wrap: wrap;
     margin-left: 0;
     margin: 20px -1em;
+    font-family: "Epilogue", sans-serif;
 }
 
 section#skills article li {
@@ -147,37 +150,46 @@ section#skills article li {
 
 
 article.project {
-    /* margin: 12px 0; */
-    flex-basis: 50%;
-    padding: 24px;
-    padding-left: 0;
+    padding: 4px 16px;
+    border: 1px solid #303030;
+    transition: all 300ms ease-in;
+    margin-bottom: 12px;
+}
+
+article.project:hover {
+    background-color: #ffffff08;
 }
 
 article.project h3.project-title {
     padding: 12px 0;
-    font-size: 29px;
-    /* margin-top: 40px; */
+    font-size: 24px;
 }
 
 .project-content {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .project-content img {
-    width: 81%;
+    width: 30%;
     height: auto;
-    margin: 4px 0 24px 0;
+    margin: 4px 0 18px 0;
     border-radius: 5px;
 }
 
+.project-content .project-details {
+    padding: 4px 16px;
+}
+
 #projects p {
-    font-size: 21px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Epilogue", sans-serif;
 }
 
 
 .experience ul {
     margin-left: 1em;
+    font-family: "Epilogue", sans-serif;
 }
 
 .experience-item h3 {
@@ -196,29 +208,33 @@ article.project h3.project-title {
 }
 
 .experience-item span {
-    font-size: 21px;
+    font-size: 17px;
 }
-.experience-content li{
+
+.experience-content li {
     margin: 12px 0;
 }
-ul.experience-content span{
-    font-size: 19px;
+
+ul.experience-content span {
+    font-size: 17px;
     line-height: 29px;
 }
 
 
-.contact-item{
+.contact-item {
     display: flex;
     align-items: center;
 }
-.contact-item .icon{
-    margin-right: 1rem;
-} 
 
-.underline{
+.contact-item .icon {
+    margin-right: 1rem;
+}
+
+.underline {
     transition: all 300ms ease-in;
 }
-.underline:hover{
+
+.underline:hover {
     text-decoration: underline;
 }
 
