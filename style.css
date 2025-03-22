@@ -130,7 +130,7 @@ section#skills article h4 {
 section#skills article ul {
     display: flex;
     flex-wrap: wrap;
-    max-width: 95vh;
+    max-width: 92vw;
     overflow: hidden;
     margin-left: 0;
     margin: 20px -1em;
