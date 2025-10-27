@@ -1,210 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaishnav V | Angular Frontend Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Vaishnav V, an Angular Frontend Developer specializing in Ngrx, Nx Monorepos, RxJs, and complex web application development."
+    />
+    <meta
+      name="keywords"
+      content="Angular, Frontend Developer, Ngrx, Nx Monorepo, RxJs, TypeScript, JavaScript, Portfolio, nuHive, TestMate,angular developer kerala,calicut, Vaishnav"
+    />
+    <meta name="author" content="Vaishnav V" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vaishnav Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <meta name="color-scheme" content="dark">
-    <meta name="google-site-verification" content="tpWddSS3AGoUJUVH3IwC8pcNBAnqvvPL8ejMlrbnerQ" />
-</head>
+    <link rel="canonical" href="https://vaishnav-dev.netlify.app/index.html" />
 
-<body>
+    <link rel="preload" href="style.css" as="style" />
+    <link rel="preload" href="./script.js" as="script" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      as="style"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="google-site-verification"
+      content="tpWddSS3AGoUJUVH3IwC8pcNBAnqvvPL8ejMlrbnerQ"
+    />
+
+    <meta
+      property="og:title"
+      content="Vaishnav V | Angular Frontend Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="An Angular Frontend Developer specializing in Ngrx, Nx Monorepos, RxJs, and complex web application development."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vaishnav-dev.netlify.app/" />
+  </head>
+
+  <body>
     <main class="top">
-        <nav>
-            <ul id="nav-links">
-                <li><a href="#about">Home</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
+      <nav>
+        <ul id="nav-links">
+          <li><a href="#about">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div role="article" class="scroll" id="scrolling">
+        <header id="about">
+          <h1>
+            <p style="text-align: center">Hi , I am Vaishnav</p>
+            <p style="text-align: center">
+              I'm a Front End developer focused on Angular
+            </p>
+          </h1>
+        </header>
+        <section id="skills">
+          <h2 tabindex="0" id="skills-heading" class="skils-heading">Skills</h2>
+
+          <article id="skill-list"></article>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
+          <main>
+            <article class="project">
+              <h3 class="project-title">TestMate</h3>
+              <section class="project-content">
+                <img
+                  src="./images/testmate.png"
+                  alt="testmate angular project"
+                  width="100px"
+                  height="100px"
+                />
+                <div class="project-details">
+                  <p>
+                    TestMate is a testcase and suite management system for
+                    Developers and QA team. Using TestMate users can create test
+                    cases, suites and execute them. It also provides detailed
+                    report of test cases and test case run status.
+                  </p>
+                </div>
+              </section>
+            </article>
+            <article class="project">
+              <h3 class="project-title">nuHive</h3>
+              <section class="project-content">
+                <img
+                  src="./images/nuhive.png"
+                  alt="nuhive angular project made in kerala"
+                  width="100px"
+                  height="100px"
+                />
+                <div class="project-details">
+                  <p>
+                    nuHive is as issue tracting and project management solution
+                    for corporates. It provide rebust time tracking and issue
+                    management with customer care support.
+                  </p>
+                </div>
+              </section>
+            </article>
+          </main>
+        </section>
+        <section id="experience">
+          <h2>Experience</h2>
+          <main class="experience">
+            <ul>
+              <li class="experience-item" tabindex="0">
+                <h3>
+                  <span aria-label="job_title" class="position-title">
+                    Angular Developer (Specialist)
+                  </span>
+                  <span aria-label="job_duration" class="job-duration">
+                    2022 Dec - Present
+                  </span>
+                </h3>
+                <ul class="experience-content">
+                  <li>
+                    <span>
+                      Implemented a virtual credit card intermediary (nuPay) for
+                      travel agencies with OTP-based authentication, integrating
+                      with major credit card companies like American Express and
+                      Visa.
+                    </span>
+                  </li>
+                  <li>
+                    <span
+                      >Designed and developed the frontend of an agile issue
+                      tracking application (nuHive) featuring a backlog and
+                      issue filter, enhancing employee productivity at
+                      Nucore.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Automated management reports, IT requests, and customer
+                      queries in nuHive using dashboard gadgets and a Kanban
+                      board, identifying and eliminating office
+                      inefficiencies.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Created the frontend of a Test Case Management system
+                      (TestMate) from scratch, improving test coverage and
+                      reducing bugs by 30%.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Developed an FAQ Management solution (FAQ) with a
+                      standalone JavaScript widget for easy integration on
+                      various sites.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Migrated large-scale applications (nuDax, nuTms) from
+                      Angular 8 to 13, improving load performance by 10%.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Implemented a live notification system with Web sockets
+                      and complex time tracking tools using advanced CSS grid
+                      and tailwind.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Developed Monorepo architecture for angular applications
+                      using Nx and implemented Ngrx for state management,
+                      resulting in improving stability and scalability of web
+                      applications.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Analyzed and improved Angular web applications using
+                      developer tools (Lighthouse, Accessibility), enhancing
+                      accessibility and boosting performance by 12%.</span
+                    >
+                  </li>
+                </ul>
+              </li>
             </ul>
-        </nav>
-        <div role="article" class="scroll" id="scrolling">
-            <header id="about">
-                <h1>
-                    <p style="text-align: center;"> Hi , I am Vaishnav</p>
-                    <p style="text-align: center;">I'm a Front End developer focused on Angular</p>
-                </h1>
-            </header>
-            <section id="skills">
-                <h2 tabindex="0" id="skills-heading" class="skils-heading">
-                    Skills
-                </h2>
+          </main>
+        </section>
+        <section id="contact">
+          <h2>Contact Me</h2>
+          <main class="contact">
+            <div class="contact-items">
+              <div class="contact-item">
+                <a href="mailto:vaishnav473202@gmail.com" target="_blank">
+                  <svg
+                    class="icon"
+                    stroke="currentColor"
+                    fill="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    height="24px"
+                    width="24px"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-80.8 108.9L531.7 514.4c-7.8 6.1-18.7 6.1-26.5 0L189.6 268.9A7.2 7.2 0 0 1 194 256h648.8a7.2 7.2 0 0 1 4.4 12.9z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="mailto:vaishnav473202@gmail.com"
+                  target="_blank"
+                  class="underline"
+                >
+                  vaishnav473202@gmail.com
+                </a>
+              </div>
+              <br />
+              <div class="contact-item">
+                <svg
+                  class="icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24px"
+                  height="24px"
+                  viewBox="0 0 24 24"
+                  fill="white"
+                >
+                  <path
+                    d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z"
+                    fill="ffffff"
+                  />
+                </svg>
+                <a>(91) 8281872470</a>
+              </div>
+              <br />
+              <div class="contact-item">
+                <a
+                  href="https://www.linkedin.com/in/vaishnav-v-calicut"
+                  target="_blank"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    fill="black"
+                    height="24px"
+                    width="24px"
+                    version="1.1"
+                    viewBox="-143 145 512 512"
+                    xml:space="preserve"
+                  >
+                    <path
+                      d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9  V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7  C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6  c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/vaishnav-v-calicut"
+                  target="_blank"
+                  class="underline"
+                >
+                  vaishnav-v-calicut
+                </a>
+              </div>
+              <br />
+              <div class="contact-item">
+                <a href="https://github.com/vaishnav-v" target="_blank">
+                  <svg
+                    height="24px"
+                    width="24px"
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    version="1.1"
+                    width="32"
+                    data-view-component="true"
+                    class="icon"
+                    fill="white"
+                  >
+                    <path
+                      d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z"
+                    ></path>
+                  </svg>
+                </a>
+                <a
+                  href="https://github.com/vaishnav-v"
+                  target="_blank"
+                  class="underline"
+                >
+                  vaishnav-v
+                </a>
+              </div>
+              <br />
 
-                <article id="skill-list">
-
-                </article>
-
-
-            </section>
-            <section id="projects">
-                <h2>
-                    Projects
-                </h2>
-                <main>
-                    <article class="project">
-                        <h3 class="project-title">
-                            TestMate
-                        </h3>
-                        <section class="project-content">
-                            <img src="./images/testmate.png" alt="testmate-execution" width="100px" height="100px">
-                            <div class="project-details">
-                                <p>
-                                    TestMate is a testcase and suite management system for Developers and QA
-                                    team. Using TestMate users can create test cases, suites and execute them.
-                                    It also provides detailed report of test cases and test case run status.
-                                </p>
-                            </div>
-
-                        </section>
-                    </article>
-                    <article class="project">
-                        <h3 class="project-title">
-                            nuHive
-                        </h3>
-                        <section class="project-content">
-                            <img src="./images/nuhive.png" alt="nuhive" width="100px" height="100px">
-                            <div class="project-details">
-                                <p>
-                                    nuHive is as issue tracting and project management solution for corporates. It
-                                    provide
-                                    rebust time tracking and issue management with customer care support.
-                                </p>
-                            </div>
-
-                        </section>
-
-                    </article>
-                </main>
-
-
-
-
-            </section>
-            <section id="experience">
-                <h2>
-                    Experience
-                </h2>
-                <main class="experience">
-                    <ul>
-                        <li class="experience-item" tabindex="0">
-                            <h3>
-                                <span aria-label="job_title" class="position-title">
-                                    Angular Developer (Specialist)
-                                </span>
-                                <span aria-label="job_duration" class="job-duration">
-                                    2022 Dec - Present
-                                </span>
-                            </h3>
-                            <ul class="experience-content">
-                                <li>
-                                    <span>
-                                        Implemented a virtual credit card intermediary (nuPay) for travel agencies
-                                        with OTP-based authentication, integrating with major credit card companies like
-                                        American Express and Visa.
-                                    </span>
-                                </li>
-                                <li><span>Designed and developed the frontend of an agile issue tracking application
-                                        (nuHive) featuring a backlog and issue filter, enhancing employee productivity
-                                        at Nucore.</span></li>
-                                <li><span>Automated management reports, IT requests, and customer queries in nuHive
-                                        using dashboard gadgets and a Kanban board, identifying and eliminating office
-                                        inefficiencies.</span></li>
-                                <li><span>Created the frontend of a Test Case Management system (TestMate) from scratch,
-                                        improving test coverage and reducing bugs by 30%.</span></li>
-                                <li><span>Developed an FAQ Management solution (FAQ) with a standalone JavaScript widget
-                                        for easy integration on various sites.</span></li>
-                                <li><span>Migrated large-scale applications (nuDax, nuTms) from Angular 8 to 13,
-                                        improving load performance by 10%.</span></li>
-                                <li><span>Implemented a live notification system with Web sockets and complex time
-                                        tracking tools using advanced CSS grid and tailwind.</span></li>
-                                <li><span>Developed Monorepo architecture for angular applications using Nx and
-                                        implemented Ngrx for state management, resulting in improving stability and
-                                        scalability of web applications.</span></li>
-                                <li><span>Analyzed and improved Angular web applications using developer tools
-                                        (Lighthouse, Accessibility), enhancing accessibility and boosting performance by
-                                        12%.</span></li>
-
-                            </ul>
-                        </li>
-                    </ul>
-                </main>
-
-            </section>
-            <section id="contact">
-                <h2>
-                    Contact Me
-                </h2>
-                <main class="contact">
-                    <div class="contact-items">
-                        <div class="contact-item">
-                            <a href="mailto:vaishnav473202@gmail.com" target="_blank">
-                                <svg class="icon" stroke="currentColor" fill="currentColor" stroke-width="0"
-                                    viewBox="0 0 1024 1024" height="24px" width="24px"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M928 160H96c-17.7 0-32 14.3-32 32v640c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32zm-80.8 108.9L531.7 514.4c-7.8 6.1-18.7 6.1-26.5 0L189.6 268.9A7.2 7.2 0 0 1 194 256h648.8a7.2 7.2 0 0 1 4.4 12.9z">
-                                    </path>
-                                </svg>
-                            </a>
-                            <a href="mailto:vaishnav473202@gmail.com" target="_blank" class="underline">
-                                vaishnav473202@gmail.com
-                            </a>
-                        </div>
-                        <br>
-                        <div class="contact-item">
-                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24px" height="24px"
-                                viewBox="0 0 24 24" fill="white">
-                                <path
-                                    d="M16.5562 12.9062L16.1007 13.359C16.1007 13.359 15.0181 14.4355 12.0631 11.4972C9.10812 8.55901 10.1907 7.48257 10.1907 7.48257L10.4775 7.19738C11.1841 6.49484 11.2507 5.36691 10.6342 4.54348L9.37326 2.85908C8.61028 1.83992 7.13596 1.70529 6.26145 2.57483L4.69185 4.13552C4.25823 4.56668 3.96765 5.12559 4.00289 5.74561C4.09304 7.33182 4.81071 10.7447 8.81536 14.7266C13.0621 18.9492 17.0468 19.117 18.6763 18.9651C19.1917 18.9171 19.6399 18.6546 20.0011 18.2954L21.4217 16.883C22.3806 15.9295 22.1102 14.2949 20.8833 13.628L18.9728 12.5894C18.1672 12.1515 17.1858 12.2801 16.5562 12.9062Z"
-                                    fill="ffffff" />
-                            </svg>
-                            <a>(91) 8281872470</a>
-                        </div>
-                        <br>
-                        <div class="contact-item">
-                            <a href="https://www.linkedin.com/in/vaishnav-v-calicut" target="_blank">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon"
-                                    xmlns:xlink="http://www.w3.org/1999/xlink" fill="black" height="24px" width="24px"
-                                    version="1.1" viewBox="-143 145 512 512" xml:space="preserve">
-                                    <path
-                                        d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9  V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7  C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6  c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z"
-                                        fill="white" />
-                                </svg>
-                            </a>
-                            <a href="https://www.linkedin.com/in/vaishnav-v-calicut" target="_blank" class="underline">
-                                vaishnav-v-calicut
-                            </a>
-
-                        </div>
-                        <br>
-                        <div class="contact-item">
-                            <a href="https://github.com/vaishnav-v" target="_blank">
-                                <svg height="24px" width="24px" aria-hidden="true" viewBox="0 0 24 24" version="1.1"
-                                    width="32" data-view-component="true" class="icon" fill="white">
-                                    <path
-                                        d="M12.5.75C6.146.75 1 5.896 1 12.25c0 5.089 3.292 9.387 7.863 10.91.575.101.79-.244.79-.546 0-.273-.014-1.178-.014-2.142-2.889.532-3.636-.704-3.866-1.35-.13-.331-.69-1.352-1.18-1.625-.402-.216-.977-.748-.014-.762.906-.014 1.553.834 1.769 1.179 1.035 1.74 2.688 1.25 3.349.948.1-.747.402-1.25.733-1.538-2.559-.287-5.232-1.279-5.232-5.678 0-1.25.445-2.285 1.178-3.09-.115-.288-.517-1.467.115-3.048 0 0 .963-.302 3.163 1.179.92-.259 1.897-.388 2.875-.388.977 0 1.955.13 2.875.388 2.2-1.495 3.162-1.179 3.162-1.179.633 1.581.23 2.76.115 3.048.733.805 1.179 1.825 1.179 3.09 0 4.413-2.688 5.39-5.247 5.678.417.36.776 1.05.776 2.128 0 1.538-.014 2.774-.014 3.162 0 .302.216.662.79.547C20.709 21.637 24 17.324 24 12.25 24 5.896 18.854.75 12.5.75Z">
-                                    </path>
-                                </svg>
-                            </a>
-                            <a href="https://github.com/vaishnav-v" target="_blank" class="underline">
-                                vaishnav-v
-                            </a>
-
-                        </div>
-                    </div>
-                </main>
-
-            </section>
-        </div>
-
+              <div class="contact-item">
+                <a>
+                  <svg
+                    fill="white"
+                    height="24px"
+                    width="24px"
+                    viewBox="-4 0 32 32"
+                    version="1.1"
+                    class="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                  >
+                    <title>location</title>
+                    <desc>Created with Sketch Beta.</desc>
+                    <defs></defs>
+                    <g
+                      id="Page-1"
+                      stroke="none"
+                      stroke-width="1"
+                      fill="white"
+                      fill-rule="evenodd"
+                      sketch:type="MSPage"
+                    >
+                      <g
+                        id="Icon-Set-Filled"
+                        sketch:type="MSLayerGroup"
+                        transform="translate(-106.000000, -413.000000)"
+                        fill="white"
+                      >
+                        <path
+                          d="M118,422 C116.343,422 115,423.343 115,425 C115,426.657 116.343,428 118,428 C119.657,428 121,426.657 121,425 C121,423.343 119.657,422 118,422 L118,422 Z M118,430 C115.239,430 113,427.762 113,425 C113,422.238 115.239,420 118,420 C120.761,420 123,422.238 123,425 C123,427.762 120.761,430 118,430 L118,430 Z M118,413 C111.373,413 106,418.373 106,425 C106,430.018 116.005,445.011 118,445 C119.964,445.011 130,429.95 130,425 C130,418.373 124.627,413 118,413 L118,413 Z"
+                          id="location"
+                          sketch:type="MSShapeGroup"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                <a> Located in Kerala </a>
+              </div>
+            </div>
+          </main>
+        </section>
+      </div>
     </main>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
