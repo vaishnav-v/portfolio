@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://vaishnav-dev.netlify.app/sitemap.xml
